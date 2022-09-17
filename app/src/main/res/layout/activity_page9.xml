@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".page9"
+    android:background="@color/black"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="30dp">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_marginTop="30dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="-10dp"
+            android:src="@drawable/arrow">
+        </ImageView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Add Playlist"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginLeft="-10dp"
+            android:textColor="@color/white"
+            android:textSize="50dp"></TextView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="10dp">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/upload"></ImageView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp">
+    </LinearLayout>
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/pn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textColor="#FFC107"
+        android:text="Playlist Name"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:background="@drawable/white"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="35dp">
+    </LinearLayout>
+    <EditText
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/dep"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:textColor="#FFC107"
+        android:text="Description"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:background="@drawable/white"
+        />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="150dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="245dp"
+        android:text="Add Playlist" />
+
+    <RelativeLayout
+        android:layout_width="90dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/grey">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="230dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="190dp"
+        android:layout_marginTop="-110dp"
+        android:background="@drawable/grey">
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-85dp"
+        android:layout_marginLeft="4dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:src="@drawable/heart"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"></ImageView>
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="100dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:src="@drawable/plus"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck"
+            ></ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="200dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:src="@drawable/search"
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck"></ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginLeft="300dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clickable="true"
+            android:src="@drawable/listen_later"
+            tools:ignore="TouchTargetSizeCheck,TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"></ImageView>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="400dp"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp">
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="20dp"
+            android:text="Liked"
+            android:textSize="20dp"
+            android:textColor="@color/white"></TextView>
+
+        <TextView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="50dp"
+            android:text="Add"
+            android:textSize="20dp"
+            android:textColor="@color/white"></TextView>
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="40dp"
+            android:text="Search"
+            android:textSize="20dp"
+            android:textColor="@color/white"></TextView>
+
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:text="ListenLater"
+            android:textSize="20dp"
+            android:textColor="@color/white"></TextView>
+    </LinearLayout>
+</LinearLayout>

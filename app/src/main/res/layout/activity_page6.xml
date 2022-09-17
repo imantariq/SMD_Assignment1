@@ -43,7 +43,8 @@
                 android:layout_marginTop="-20dp"
                 android:layout_marginRight="5dp"
                 android:clickable="true"
-                android:src="@drawable/playlist"></ImageView>
+                android:src="@drawable/playlist"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"></ImageView>
         </RelativeLayout>
 
         <RelativeLayout
@@ -58,21 +59,24 @@
                 android:layout_marginTop="-20dp"
                 android:layout_marginRight="5dp"
                 android:clickable="true"
-                android:src="@drawable/playlist"></ImageView>
+                android:src="@drawable/playlist"
+                tools:ignore="SpeakableTextPresentCheck"></ImageView>
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="130dp"
             android:layout_height="150dp">
+
             <ImageView
                 android:id="@+id/playlist6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="-20dp"
                 android:layout_marginLeft="12dp"
+                android:layout_marginTop="-20dp"
                 android:layout_marginRight="5dp"
                 android:clickable="true"
-                android:src="@drawable/playlist"></ImageView>
+                android:src="@drawable/playlist"
+                tools:ignore="SpeakableTextPresentCheck"></ImageView>
         </RelativeLayout>
     </LinearLayout>
     <TextView
@@ -129,35 +133,40 @@
                 android:layout_marginTop="-30dp"
                 android:layout_marginRight="5dp"
                 android:clickable="true"
-                android:src="@drawable/atif"></ImageView>
+                android:src="@drawable/atif"
+                tools:ignore="SpeakableTextPresentCheck"></ImageView>
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="130dp"
             android:layout_height="150dp">
+
             <ImageView
                 android:id="@+id/artist5"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="-30dp"
                 android:layout_marginLeft="10dp"
+                android:layout_marginTop="-30dp"
                 android:layout_marginRight="5dp"
                 android:clickable="true"
-                android:src="@drawable/atif"></ImageView>
+                android:src="@drawable/atif"
+                tools:ignore="SpeakableTextPresentCheck"></ImageView>
         </RelativeLayout>
 
         <RelativeLayout
             android:layout_width="130dp"
             android:layout_height="150dp">
+
             <ImageView
                 android:id="@+id/artist6"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:layout_marginTop="-30dp"
                 android:layout_marginLeft="12dp"
+                android:layout_marginTop="-30dp"
                 android:layout_marginRight="5dp"
                 android:clickable="true"
-                android:src="@drawable/atif"></ImageView>
+                android:src="@drawable/atif"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"></ImageView>
         </RelativeLayout>
 
     </LinearLayout>
@@ -231,12 +240,13 @@
         android:layout_height="40dp"
         android:layout_marginTop="-87dp"
         android:layout_marginLeft="4dp">
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:clickable="true"
             android:src="@drawable/heart"
-            android:clickable="true">
-        </ImageView>
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"></ImageView>
     </RelativeLayout>
 
     <RelativeLayout
@@ -244,12 +254,13 @@
         android:layout_height="40dp"
         android:layout_marginTop="-40dp"
         android:layout_marginLeft="100dp">
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:clickable="true"
             android:src="@drawable/plus"
-            android:clickable="true">
-        </ImageView>
+            tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck,TouchTargetSizeCheck"></ImageView>
     </RelativeLayout>
 
     <RelativeLayout
@@ -257,12 +268,13 @@
         android:layout_height="40dp"
         android:layout_marginTop="-40dp"
         android:layout_marginLeft="180dp">
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:clickable="true"
             android:src="@drawable/search"
-            android:clickable="true">
-        </ImageView>
+            tools:ignore="TouchTargetSizeCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck"></ImageView>
     </RelativeLayout>
 
     <RelativeLayout
@@ -270,12 +282,13 @@
         android:layout_height="40dp"
         android:layout_marginTop="-40dp"
         android:layout_marginLeft="300dp">
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:clickable="true"
             android:src="@drawable/listen_later"
-            android:clickable="true">
-        </ImageView>
+            tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck,TouchTargetSizeCheck"></ImageView>
     </RelativeLayout>
     <LinearLayout
         android:layout_width="400dp"

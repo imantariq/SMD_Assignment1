@@ -39,35 +39,41 @@
             android:layout_height="15dp"
             android:layout_marginTop="20dp">
         </LinearLayout>
+
     <ImageView
         android:layout_width="400dp"
         android:layout_height="70dp"
         android:layout_marginLeft="8dp"
+        android:clickable="true"
         android:src="@drawable/fb_but"
-        android:clickable="true"></ImageView>
+        tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"></ImageView>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="15dp"
         android:layout_marginTop="20dp">
     </LinearLayout>
+
     <ImageView
         android:layout_width="400dp"
         android:layout_height="70dp"
         android:layout_marginLeft="8dp"
+        android:clickable="true"
         android:src="@drawable/google_but"
-        android:clickable="true"></ImageView>
+        tools:ignore="SpeakableTextPresentCheck"></ImageView>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="15dp"
         android:layout_marginTop="20dp">
     </LinearLayout>
+
     <ImageView
         android:layout_width="400dp"
         android:layout_height="70dp"
         android:layout_marginLeft="8dp"
+        android:clickable="true"
         android:src="@drawable/create_acc"
-        android:clickable="true"></ImageView>
+        tools:ignore="SpeakableTextPresentCheck"></ImageView>
 
 </LinearLayout>
