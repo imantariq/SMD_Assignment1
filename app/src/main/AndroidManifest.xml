@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.example.assignment">
+    package="com.ImanTariq.i190440">
 
     <application
         android:allowBackup="true"
@@ -14,73 +14,73 @@
         android:theme="@style/Theme.Assignment"
         tools:targetApi="31">
         <activity
-            android:name=".page23"
+            android:name="com.ImanTariq.i190440.page23"
             android:exported="false" />
         <activity
-            android:name=".page22"
+            android:name="com.ImanTariq.i190440.page22"
             android:exported="false" />
         <activity
-            android:name=".page21"
+            android:name="com.ImanTariq.i190440.page21"
             android:exported="false" />
         <activity
-            android:name=".page20"
+            android:name="com.ImanTariq.i190440.page20"
             android:exported="false" />
         <activity
-            android:name=".page19"
+            android:name="com.ImanTariq.i190440.page19"
             android:exported="false" />
         <activity
-            android:name=".page18"
+            android:name="com.ImanTariq.i190440.page18"
             android:exported="false" />
         <activity
-            android:name=".page17"
+            android:name="com.ImanTariq.i190440.page17"
             android:exported="false" />
         <activity
-            android:name=".page16"
+            android:name="com.ImanTariq.i190440.page16"
             android:exported="false" />
         <activity
-            android:name=".page15"
+            android:name="com.ImanTariq.i190440.page15"
             android:exported="false" />
         <activity
-            android:name=".page14"
+            android:name="com.ImanTariq.i190440.page14"
             android:exported="false" />
         <activity
-            android:name=".page13"
+            android:name="com.ImanTariq.i190440.page13"
             android:exported="false" />
         <activity
-            android:name=".page12"
+            android:name="com.ImanTariq.i190440.page12"
             android:exported="false" />
         <activity
-            android:name=".page11"
+            android:name="com.ImanTariq.i190440.page11"
             android:exported="false" />
         <activity
-            android:name=".page10"
+            android:name="com.ImanTariq.i190440.page10"
             android:exported="false" />
         <activity
-            android:name=".page9"
+            android:name="com.ImanTariq.i190440.page9"
             android:exported="false" />
         <activity
-            android:name=".page8"
+            android:name="com.ImanTariq.i190440.page8"
             android:exported="false" />
         <activity
-            android:name=".pag7"
+            android:name="com.ImanTariq.i190440.pag7"
             android:exported="false" />
         <activity
-            android:name=".page6"
+            android:name="com.ImanTariq.i190440.page6"
             android:exported="false" />
         <activity
-            android:name=".page5"
+            android:name="com.ImanTariq.i190440.page5"
             android:exported="false" />
         <activity
-            android:name=".page4"
+            android:name="com.ImanTariq.i190440.page4"
             android:exported="false" />
         <activity
-            android:name=".page3"
+            android:name="com.ImanTariq.i190440.page3"
             android:exported="false" />
         <activity
-            android:name=".page2"
+            android:name="com.ImanTariq.i190440.page2"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.ImanTariq.i190440.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

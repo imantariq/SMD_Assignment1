@@ -1,4 +1,4 @@
-package com.example.assignment;
+package com.ImanTariq.i190440;
 
 import org.junit.Test;
 

@@ -140,7 +140,7 @@
                         android:layout_marginTop="-30dp"
                         android:layout_marginRight="5dp"
                         android:clickable="true"
-                        android:src="@drawable/atif"
+                        android:src="@drawable/despacito"
                         tools:ignore="SpeakableTextPresentCheck"></ImageView>
                 </RelativeLayout>
 
@@ -156,7 +156,7 @@
                         android:layout_marginTop="-30dp"
                         android:layout_marginRight="5dp"
                         android:clickable="true"
-                        android:src="@drawable/atif"
+                        android:src="@drawable/despacito"
                         tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"></ImageView>
                 </RelativeLayout>
 
@@ -172,7 +172,7 @@
                         android:layout_marginTop="-30dp"
                         android:layout_marginRight="5dp"
                         android:clickable="true"
-                        android:src="@drawable/atif"
+                        android:src="@drawable/despacito"
                         tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck"></ImageView>
                 </RelativeLayout>
 

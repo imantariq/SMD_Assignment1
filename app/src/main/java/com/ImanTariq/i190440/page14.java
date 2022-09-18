@@ -1,14 +1,14 @@
-package com.example.assignment;
+package com.ImanTariq.i190440;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class pag7 extends AppCompatActivity {
+public class page14 extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_pag7);
+        setContentView(R.layout.activity_page14);
     }
 }
