@@ -83,7 +83,7 @@
 <RelativeLayout
     android:layout_width="90dp"
     android:layout_height="100dp"
-    android:layout_marginTop="50dp"
+    android:layout_marginTop="-15dp"
     android:background="@drawable/grey">
 </RelativeLayout>
 
@@ -91,7 +91,7 @@
     android:layout_width="230dp"
     android:layout_height="100dp"
     android:layout_marginLeft="190dp"
-    android:layout_marginTop="-100dp"
+    android:layout_marginTop="-110dp"
     android:background="@drawable/grey">
 
 </RelativeLayout>
@@ -99,7 +99,7 @@
 <RelativeLayout
     android:layout_width="80dp"
     android:layout_height="40dp"
-    android:layout_marginTop="-90dp"
+    android:layout_marginTop="-80dp"
     android:layout_marginLeft="4dp">
 
     <ImageView

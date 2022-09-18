@@ -13,7 +13,7 @@
     android:layout_marginTop="30dp">
     <ImageView
         android:layout_width="80dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_height="35dp"
         android:layout_marginLeft="-10dp"
         android:src="@drawable/arrow">
@@ -24,13 +24,13 @@
         android:text="Liked"
         android:textAlignment="center"
         android:textColor="@color/white"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="-10dp"
         android:textSize="35dp"></TextView>
 </LinearLayout>
 <TextView
     android:layout_width="240dp"
     android:layout_height="40dp"
-    android:layout_marginTop="-15dp"
+    android:layout_marginTop="-25dp"
     android:layout_marginLeft="20dp"
     android:text="2 options/Right Selected"
     android:textColor="#504D4A"
@@ -154,7 +154,7 @@
 <RelativeLayout
     android:layout_width="320dp"
     android:layout_height="100dp"
-    android:layout_marginTop="215dp"
+    android:layout_marginTop="165dp"
     android:layout_marginStart="100dp"
     android:background="@drawable/grey">
 

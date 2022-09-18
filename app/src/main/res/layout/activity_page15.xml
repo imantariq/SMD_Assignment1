@@ -43,13 +43,13 @@
     <RelativeLayout
         android:layout_width="300dp"
         android:layout_height="200dp"
-        android:layout_marginTop="150dp"
+        android:layout_marginTop="80dp"
         android:layout_marginLeft="-55dp">
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/squaresimple"
-            ></ImageView>
+            android:src="@drawable/squaresimple"></ImageView>
     </RelativeLayout>
 
     <RelativeLayout

@@ -22,12 +22,14 @@
     <RelativeLayout
         android:layout_width="wrap_content"
         android:layout_height="100dp"
+        android:layout_marginTop="-15dp"
         >
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:src="@drawable/musify"
-            android:layout_marginRight="290dp"></ImageView>
+            android:layout_marginRight="290dp"
+            android:src="@drawable/musify"></ImageView>
     </RelativeLayout>
     <TextView
         android:layout_width="match_parent"
